@@ -24,7 +24,7 @@ vagasAnterior = []
 
 video = cv2.VideoCapture('tcc.mp4')
 
-client = MongoClient("mongodb+srv://loran:estacionamento@cluster0.m9q8quv.mongodb.net/")
+client = MongoClient("mongodb+srv://Leonardo10:Leonardo10@cluster0.jxogsej.mongodb.net/")
 db = client["test"]
 collection = db["vagamodels"]
 
